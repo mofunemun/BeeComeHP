@@ -1,4 +1,10 @@
-html {
-  color: red;
+@charset "UTF-8";
+body {
+  color: #000000;
+  font-family: "MS Pゴシック",sans-serif;
+}
+
+header {
+  height: 20vh;
 }
 /*# sourceMappingURL=beecome.css.map */

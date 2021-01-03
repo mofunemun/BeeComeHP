@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,GAAG;CACb",
+    "mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,yBAAyB;CACzC;;AACD,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,IAAI;CACf",
     "sources": [
         "beecome.scss"
     ],
