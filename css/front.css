@@ -1,0 +1,264 @@
+/* 文字種指定 */
+body {
+    font-family: sans-serif;
+}
+
+/* 全体のレイアウト */
+@media screen and (min-width:300px) { 
+    /*　スマホ版のレイアウト　*/
+    header{
+        height: 10vh;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        height: 20vh;
+        width: 100%;
+    }
+}
+@media screen and (min-width:1024px) {
+    /*　PC用のレイアウト　*/
+    header{
+        height: 8vh;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        height: 30vh;
+        width: 100%;
+    }
+}
+
+/* ここからヘッダーの調整*/
+/* ヘッダ内ロゴ画像調整 */
+
+.header-PC>img{
+    display: block;
+    width: 5%;
+    object-fit: cover;
+}
+
+/* ヘッダ用部品の調整 */
+@media screen and (min-width:300px){
+    .backtotop{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .backtotop{
+        display: block;
+        position: fixed;
+        left: 90%;
+        top:90%;
+    }
+    .header-PC>div{
+        width: 50%;
+        display: flex;
+    }
+    .header-PC>div>div{
+        width: calc(100%/3);
+    }
+    .header-PC>div>div>a{
+        text-decoration: none;
+        color: brown;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*　ヘッダの表示・非表示調整　*/
+@media screen and (min-width:300px) { 
+    
+   .header-PC{
+       display: none;
+   }
+   .header-sp{
+       height: 100%;
+       width: 20%;
+   }
+}
+@media screen and (min-width:1024px) {
+    .header-PC{
+        height: 8vh;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+    }
+    .header-sp,.aside-sp{
+        display: none;
+    }
+}
+
+/* ここからメイン部分の調整 */
+/* ファーストビュー画像の調整 */
+.main-firstimage{
+    width: 100%;
+}
+.main-firstimage>img{
+    height:100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width:300px) { 
+    .main-firstimg{
+        height: 50vh;
+    }
+}
+@media screen and (min-width:1024px) {
+    .main-firstimage{
+        height: 100vh;
+    }
+}
+
+/* メッセージ部分の調整 */
+@media screen and (min-width:300px){
+    .main-message{
+        height: 40vh;
+        width: 100%;
+        position: relative;
+    }
+    .main-message-emptyellow{
+        width: 67%;
+        height: 80%;
+        background-color: #fafa02;
+        position: absolute;
+        top: 5%;
+        left: 12%;
+    }
+
+    .main-message-filledyellow{
+        width: 51%;
+        height: 49.5%;
+        position: absolute;
+        top: 45.5%;
+        left: 37%;
+        background-color: #fafa02;
+    }
+    .main-message-filledyellow-content{
+        position: absolute;
+        top: 9%;
+        left: 18%;
+        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+        color: #4F2111;
+    }
+    .main-message-filledyellow-content>h3{
+        font-size: calc(1rem + ((1vw - 3.75px) * 4.9307));
+        padding: 2% 0;
+    }
+    .main-message-filledyellow-content>p{
+        font-size: calc(0.4375rem + ((1vw - 3.75px) * 3.8521));
+        padding: 2% 0;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .main-message{
+        height: 90vh;
+        width: 100%;
+        position: relative;
+    }
+    .main-message-emptyellow{
+        width: 53.5%;
+        height: 77.5%;
+        background-color: #fafa02;
+        position: absolute;
+        top: 4.5%;
+        left: 19%;
+    }
+    .main-message-filledyellow{
+        width: 58.5%;
+        height: 83.5%;
+        position: absolute;
+        top: 11%;
+        left: 26.5%;
+        background-color: #fafa02;
+    }
+    .main-message-filledyellow-content{
+        position: absolute;
+        top: 6%;
+        left: 28%;
+        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+        color: #4F2111;
+    }
+    .main-message-filledyellow-content>h3{
+        font-size: 48px;
+        padding: 2% 0;
+    }
+    .main-message-filledyellow-content>p{
+        font-size: 32px;
+        padding: 20px 0;
+    }
+}
+
+/* ここからイベントページの調整 */
+@media screen and (min-width:300px){
+    .main-event{
+        height: 50vh;
+        width: 100%;
+        text-align: center;
+    }
+    .main-event>h2{
+        margin: 4vh auto 2vh auto;
+        font-size: calc(1.25rem + ((1vw - 3.75px) * 5.2388));
+    }
+    .main-event>img{
+        max-width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        display: block;
+        margin:0 auto 2vh auto;
+    }
+    .main-event>a{
+        display: block;
+        width: 60%;
+        padding: 1vh 0;
+        margin: 5vh auto;
+        background-color: #fafa02;
+        color: #4F2111;
+        border-radius: 11vh;
+        text-decoration: none;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .main-event{
+        height: 90vh;
+        width: 100%;
+        text-align: center;
+    }
+    .main-event>h2{
+        margin: 5vh auto;
+        font-size: 54px;
+    }
+    .main-event>img{
+        max-width: 80%;
+        height: 50vh;
+        object-fit: cover;
+        display: block;
+        margin: 5vh auto 7vh auto;
+    }
+    .main-event>a{
+        display: block;
+        width: 30%;
+        padding: 2vh 3%;
+        margin: 5vh auto;
+        background-color: #fafa02;
+        color: #4F2111;
+        border-radius: 11vh;
+        text-decoration: none;
+        font-size: 24px;
+    }
+}
