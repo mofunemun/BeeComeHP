@@ -14,21 +14,19 @@ body {
         width: 100%;
     }
     footer{
-        height: 20vh;
         width: 100%;
     }
 }
 @media screen and (min-width:1024px) {
     /*　PC用のレイアウト　*/
     header{
-        height: 8vh;
+        height: 12vh;
         width: 100%;
     }
     main{
         width: 100%;
     }
     footer{
-        height: 30vh;
         width: 100%;
     }
 }
@@ -38,13 +36,36 @@ body {
 
 .header-PC>img{
     display: block;
-    width: 5%;
+    height: 100%;
+    width: auto;
     object-fit: cover;
 }
 
 /* ヘッダ用部品の調整 */
 @media screen and (min-width:300px){
     .backtotop{
+        display: none;
+    }
+    .header-PC{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 10vh;
+    }
+    .header-PC>div{
+        display: none;
+    }
+    .header-PC>img{
+        height: 10vh;
+        width: auto;
+        object-fit: cover;
+    }
+    .header-sp{
+        width: 20%;
+        height: 10vh;
+        left: 80%;
+    }
+    header{
         display: none;
     }
 }
@@ -54,7 +75,11 @@ body {
         display: block;
         position: fixed;
         left: 90%;
-        top:90%;
+        top: 80%;
+    }
+    .backtotop>img{
+        width: 100%;
+        height: auto;
     }
     .header-PC>div{
         width: 50%;
@@ -70,32 +95,25 @@ body {
         width: 100%;
         height: 100%;
         text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        font-size: 28px;
+        font-family: 'DIN Condensed',sans-serif;
+        padding: 2vh 10%;
+    }
+    .header-menu-JP{
+        font-weight: 200;
+        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     }
 }
 
-/*　ヘッダの表示・非表示調整　*/
-@media screen and (min-width:300px) { 
-    
-   .header-PC{
-       display: none;
-   }
-   .header-sp{
-       height: 100%;
-       width: 20%;
-   }
-}
 @media screen and (min-width:1024px) {
     .header-PC{
-        height: 8vh;
+        height: 12vh;
         width: 100%;
         display: flex;
         position: fixed;
         justify-content: space-between;
     }
-    .header-sp,.aside-sp{
+    .header-sp{
         display: none;
     }
 }
@@ -125,83 +143,38 @@ body {
 /* メッセージ部分の調整 */
 @media screen and (min-width:300px){
     .main-message{
-        height: 40vh;
         width: 100%;
         position: relative;
-    }
-    .main-message-emptyellow{
-        width: 67%;
-        height: 80%;
-        background-color: #fafa02;
-        position: absolute;
-        top: 5%;
-        left: 12%;
+        margin: 3vh auto;
     }
 
-    .main-message-filledyellow{
-        width: 51%;
-        height: 49.5%;
-        position: absolute;
-        top: 45.5%;
-        left: 37%;
-        background-color: #fafa02;
+    .main-message-sp{
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
-    .main-message-filledyellow-content{
-        position: absolute;
-        top: 9%;
-        left: 18%;
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        color: #4F2111;
-    }
-    .main-message-filledyellow-content>h3{
-        font-size: calc(1rem + ((1vw - 3.75px) * 4.9307));
-        padding: 2% 0;
-    }
-    .main-message-filledyellow-content>p{
-        font-size: calc(0.4375rem + ((1vw - 3.75px) * 3.8521));
-        padding: 2% 0;
+    .main-message-PC{
+        display: none;
     }
 }
 
 @media screen and (min-width:1024px) {
     .main-message{
-        height: 90vh;
         width: 100%;
         position: relative;
+        margin: 5vh auto;
     }
-    .main-message-emptyellow{
-        width: 53.5%;
-        height: 77.5%;
-        background-color: #fafa02;
-        position: absolute;
-        top: 4.5%;
-        left: 19%;
+    .main-message-sp{
+        display: none;
     }
-    .main-message-filledyellow{
-        width: 58.5%;
-        height: 83.5%;
-        position: absolute;
-        top: 11%;
-        left: 26.5%;
-        background-color: #fafa02;
-    }
-    .main-message-filledyellow-content{
-        position: absolute;
-        top: 6%;
-        left: 28%;
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        color: #4F2111;
-    }
-    .main-message-filledyellow-content>h3{
-        font-size: 48px;
-        padding: 2% 0;
-    }
-    .main-message-filledyellow-content>p{
-        font-size: 32px;
-        padding: 20px 0;
+    .main-message-PC{
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
 }
-
 /* ここからイベントページの調整 */
 @media screen and (min-width:300px){
     .main-event{
@@ -240,8 +213,9 @@ body {
         text-align: center;
     }
     .main-event>h2{
-        margin: 5vh auto;
+        padding: 7vh 0 2vh 0;
         font-size: 54px;
+        margin: 0;
     }
     .main-event>img{
         max-width: 80%;
@@ -260,5 +234,235 @@ body {
         border-radius: 11vh;
         text-decoration: none;
         font-size: 24px;
+    }
+}
+
+/* ここからアクティビティの調整 */
+
+@media screen and (min-width:300px){
+    .main-activity{
+        width: 100%;
+        text-align: center;
+        background-color: #f2f2f2;
+    }
+    .main-activity>h2{
+        margin: 0 auto;
+        padding: 2vh 0 3vh 0;
+        font-size: calc(1.5rem + ((1vw - 3.75px) * 4.6225));
+    }
+    .main-activity-script{
+        width: 90%;
+        margin: 0 auto;
+        background-color: white;
+        padding: 2vh 5%;
+    }
+    .main-activity-script>h3{
+        margin: 0 auto 2vh auto;
+        font-size: calc(1rem + ((1vw - 3.75px) * 3.698));
+        color: #4f2111;
+        font-weight: bold;
+    }
+    .main-activity-script>p{
+        font-size: calc(0.625rem + ((1vw - 3.75px) * 2.4653));
+        text-align: left;
+        color: #4f2111;
+        font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+    }
+    .main-activity-articles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin: 5vh auto 0 auto;
+    }
+    .main-activity-articles-item{
+        width: 100%;
+        background-color: #ffffff;
+        margin-bottom: 3vh;
+    }
+    .main-activity-articles-item>h4{
+        font-size: calc(1.5rem + ((1vw - 3.75px) * 4.6225));
+        margin: 2vh auto;
+        font-weight: normal;
+        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+    }
+    .main-activity-articles-item>img{
+        width: 90%;
+        object-fit: cover;
+    }
+    .main-activity-articles-item>ul{
+        width: 90%;
+        background-color: #fafa02;
+        margin: 1vh auto 3vh auto;
+        padding: 2vh 10%;
+        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    }
+    .main-activity-articles-item>ul>li{
+        color: #4f2111;
+        text-align: left;
+        font-size: calc(0.75rem + ((1vw - 3.75px) * 1.849));
+        list-style-type: disc;
+        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .main-activity{
+        width: 100%;
+        padding-bottom: 7vh;
+        background-color: #f2f2f2;
+    }
+    .main-activity>h2{
+        margin: 0 auto;
+        padding: 7vh 0 2vh 0;
+        font-size: 54px;
+    }
+    .main-activity-script{
+        width: 85%;
+        margin: 0 auto;
+        background-color: white;
+        padding: 5vh 5%;
+    }
+    .main-activity-script>h3{
+        margin: 0 auto 2vh auto;
+        font-size: 40px;
+        color: #4f2111;
+        font-weight: bold;
+    }
+    .main-activity-script>p{
+        font-size: 26px;
+        text-align: left;
+        color: #4f2111;
+        font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+    }
+    .main-activity-articles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 85%;
+        margin: 5vh auto 0 auto;
+    }
+    .main-activity-articles-item{
+        width: 47.5%;
+        background-color: #ffffff;
+        margin-bottom: 3vh;
+    }
+    .main-activity-articles-item>h4{
+        font-size: 54px;
+        margin: 2vh auto;
+        font-weight: normal;
+        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+    }
+    .main-activity-articles-item>img{
+        width: 80%;
+        object-fit: cover;
+    }
+    .main-activity-articles-item>ul{
+        width: 80%;
+        background-color: #fafa02;
+        margin: 1vh auto 3vh auto;
+        padding: 2vh 10%;
+        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    }
+    .main-activity-articles-item>ul>li{
+        color: #4f2111;
+        text-align: left;
+        font-size: 24px;
+        list-style-type: disc;
+        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+    }
+}
+
+/* ここからアサイドの調整 */
+
+.aside-sp{
+    display: none;
+}
+
+.is-open{
+    display: block;
+}
+
+main{
+    position: relative;
+}
+
+aside{
+    width: 100%;
+    height: 100vh;
+    background-color: #fafa02cc;
+    position: absolute;
+    z-index: 2;
+}
+
+/* ここからフッターの調整 */
+
+footer{
+    background-color: #FDFBFB;
+    text-align: center;
+    width: 100%;
+    padding: 5vh 0;
+}
+
+@media screen and (min-width:300px){
+    footer>div{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer-logo{
+        width: 20%;
+        height: auto;
+    }
+    .footer-titlelogo{
+        width: 50%;
+        height: auto;
+    }
+    .footer-QR{
+        width: 20%;
+        height: auto;
+    }
+    .footer-copyrights{
+        font-size: calc(1.125rem + ((1vw - 3.75px) * 2.1572));
+        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+        position: relative;
+        top: -2vh;
+        color:#707070;
+    }
+    .footer-subcopyrights{
+        font-size: calc(0.25rem + ((1vw - 3.75px) * 4.3143));
+        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+        position: relative;
+        top: -2vh;
+        color:#707070;
+    }
+}
+
+@media screen and (min-width:1024px){
+    footer>div{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer-logo{
+        width: 10%;
+        height: auto;
+    }
+    .footer-titlelogo{
+        width: 30%;
+        height: auto;
+    }
+    .footer-QR{
+        width: 10%;
+        height: auto;
+    }
+    .footer-copyrights,.footer-subcopyrights{
+        font-size: 32px;
+        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+        position: relative;
+        top: -4vh;
+        color:#707070;
     }
 }
