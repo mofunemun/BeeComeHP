@@ -218,6 +218,7 @@ body {
         text-align: center;
     }
     .main-event>h2{
+        color: #4F2111;
         margin: 4vh auto 2vh auto;
         font-size: calc(1.25rem + ((1vw - 3.75px) * 5.2388));
     }
@@ -284,6 +285,7 @@ body {
         margin: 0 auto;
         padding: 2vh 0 3vh 0;
         font-size: calc(1.5rem + ((1vw - 3.75px) * 4.6225));
+        color: #4F2111;
     }
     .main-activity-script{
         width: 90%;
