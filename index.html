@@ -6,26 +6,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/front.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body id="home">
-    <aside class="aside-sp is-open">
+    <aside class="aside-sp">
         <nav>
-            <div><a href="#home">HOME</a></div>
-            <div><a href="#event">EVENT</a></div>
-            <div><a href="#activity">ACTIVITY</a></div>
-            <div><a href="#contact">CONTACT</a></div>
+            <div class="aside-sp-nav-item"><a href="#home">HOME</a></div>
+            <div class="aside-sp-nav-item"><a href="#event">EVENT</a></div>
+            <div class="aside-sp-nav-item"><a href="#activity">ACTIVITY</a></div>
+            <div class="aside-sp-nav-item"><a href="#contact">CONTACT</a></div>
         </nav>
     </aside>
-    <a href="#" class="backtotop"><img src="fruit_ringo.png" alt="トップに戻る"></a>
+    <a href="#" class="backtotop"><img src="img/fruit_ringo.png" alt="トップに戻る"></a>
     <nav class="header-PC">
-        <img class="header-logo" src="fruit_ringo.png" alt="BeeComeのロゴ">
+        <img class="header-logo" src="img/fruit_ringo.png" alt="BeeComeのロゴ">
         <div>
             <div><a href="#"><span class="header-menu-JP">ホーム</span><br><span>HOME</span></a></div>
             <div><a href="#"><span class="header-menu-JP">イベント</span><br><span>EVENT</span></a></div>
             <div><a href="#"><span class="header-menu-JP">お問い合わせ</span><br><span>CONTACT</span></a></div>
         </div>
         <button class="header-sp">
-            <span>これはボタンです</span>
+            <div class="header-sp-upper"></div>
+            <div class="header-sp-middle"></div>
+            <div class="header-sp-bottom"></div>
         </button>
     </nav>
     <header>
@@ -33,15 +36,15 @@
     <main>
         <section class="main-firstimage">
             <div></div>
-            <img src="topimg.png" alt="BeeComeファーストビュー">
+            <img src="img/topimg.png" alt="BeeComeファーストビュー">
         </section>
         <section class="main-message">
-            <img class="main-message-PC" src="message.png" alt="">
-            <img class="main-message-sp" src="message-sp.png" alt="">
+            <img class="main-message-PC" src="img/message.png" alt="">
+            <img class="main-message-sp" src="img/message-sp.png" alt="">
         </section>
         <section class="main-event" id="event">
             <h2>EVENT</h2>
-            <img src="eventsample.jpg" alt="イベントの画像です">
+            <img src="img/eventsample.jpg" alt="イベントの画像です">
             <a href="#">イベント詳細ページへ</a>
         </section>
         <section class="main-activity" id="activity">
@@ -58,7 +61,7 @@
             <div class="main-activity-articles">
                 <article class="main-activity-articles-item">
                     <h4>企画班</h4>
-                    <img src="eventsample.jpg" alt="">
+                    <img src="img/eventsample.jpg" alt="">
                     <ul>
                         <li>０&rarr;１を作る経験をしたい</li>
                         <li>企画・マネジメントに興味がある</li>
@@ -67,7 +70,7 @@
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>広報班</h4>
-                    <img src="eventsample.jpg" alt="">
+                    <img src="img/eventsample.jpg" alt="">
                     <ul>
                         <li>デザインの知識を実践したい</li>
                         <li>取材・編集・ライターに興味がある</li>
@@ -76,7 +79,7 @@
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>IT班</h4>
-                    <img src="eventsample.jpg" alt="">
+                    <img src="img/eventsample.jpg" alt="">
                     <ul>
                         <li>プログラミングの知識を実践したい</li>
                         <li>HTML・CSSに触れたことがある</li>
@@ -85,7 +88,7 @@
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>動画班</h4>
-                    <img src="eventsample.jpg" alt="">
+                    <img src="img/eventsample.jpg" alt="">
                     <ul>
                         <li>動画制作を1から学びたい</li>
                         <li>映像・演出・マスコミに興味がある</li>
@@ -97,13 +100,13 @@
     </main>
     <footer id="contact">
         <div>
-            <img class="footer-logo" src="fruit_ringo.png" alt="BeeComeのロゴ">
-            <img class="footer-titlelogo" src="titlelogo.png" alt="BeeComeのタイトルロゴ">
-            <img class="footer-QR" src="fruit_ringo.png" alt="BeeComeインスタのQRコード">
+            <img class="footer-logo" src="img/fruit_ringo.png" alt="BeeComeのロゴ">
+            <img class="footer-titlelogo" src="img/titlelogo.png" alt="BeeComeのタイトルロゴ">
+            <img class="footer-QR" src="img/fruit_ringo.png" alt="BeeComeインスタのQRコード">
         </div>
         <p class="footer-copyrights">学生団体　BeeCome<br></p>
         <p class="footer-subcopyrights">学生団体　＠ぼくらしNext&times;HeroJect&times;青森県&times;NPO法人SEEDS SEEDS NETWORK</p>
-        
     </footer>
+    <script src="./aside.js"></script>
 </body>
 </html>
