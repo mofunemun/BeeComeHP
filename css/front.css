@@ -68,7 +68,7 @@ body {
         width: 20%;
         height: 10vh;
         left: 80%;
-        position: absolute;
+        position: fixed;
         z-index: 3;
     }
     .header-sp>div{
