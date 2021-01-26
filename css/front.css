@@ -41,9 +41,22 @@ body {
     }
     main{
         width: 100%;
+        padding-bottom: 0;
     }
     footer{
         width: 100%;
+    }
+    .main-event{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main-whats{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main-activity{
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -84,8 +97,8 @@ body {
         width: 20%;
         height: 10vh;
         left: 80%;
-        position: fixed;
-        z-index: 3;
+        position: absolute;
+        z-index: 5;
         background-color: #fafa02;
     }
     .header-sp>div{
@@ -131,6 +144,14 @@ body {
         width: 100%;
         height: auto;
     }
+    .header-PC{
+        background-color: white;
+    }
+    .header-logo{
+        height: 12vh;
+        width: auto;
+        padding: 1%;
+    }
     .header-PC>div{
         width: 50%;
         display: flex;
@@ -139,18 +160,20 @@ body {
         width: calc(100%/3);
     }
     .header-PC>div>div>a{
+        display: flex;
         text-decoration: none;
         color: brown;
         display: block;
+        text-align: center;
         width: 100%;
         height: 100%;
-        text-align: center;
-        font-size: calc(1.125rem + ((1vw - 10.24px) * 1.7361));
+        font-size: calc(2.75rem + ((1vw - 10.24px) * 2.0833));
         font-family: 'DIN Condensed',sans-serif;
-        padding: 2vh 10%;
+        align-items: center;
     }
     .header-menu-JP{
         font-weight: 200;
+        font-size: 16px;
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     }
     header{
@@ -182,16 +205,71 @@ body {
         padding-top: 15vh;
         top:0;
     }
-    .main-message-first>img{
-        display: block;
-        height: auto;
-        
-    }
     .main-message-speech{
         width: 30%;
         position: absolute;
         top: 2vh;
         left: 60%;
+        display: block;
+        height: auto;
+    }
+    .main-message-vivid{
+        width: 90%;
+        opacity: 1;
+        padding: 1vh 0;
+        margin: 0 auto;
+        display: block;
+        height: auto;
+    }
+    .main-message-semivivid{
+        width: 90%;
+        opacity: 0.6;
+        padding: 1vh 0;
+        margin: 0 auto;
+        display: block;
+        height: auto;
+    }
+    .main-message-vague{
+        width: 90%;
+        opacity: 0.3;
+        padding: 1vh 0;
+        margin: 0 auto;
+        display: block;
+        height: auto;
+    }
+    .main-message-scripts{
+        margin-top: 5vh;
+    }
+    .main-message-scripts-headline>h2{
+        text-align: center;
+        font-size: calc(1.5rem + ((1vw - 3.75px) * 4.6225));
+        margin: 0 auto;
+        color: #4F2111;
+        padding-top: 1vh;
+    }
+    .main-message-scripts-para{
+        width: 70%;
+        margin: 0 auto;
+        padding: 3vh 0;
+        color: #4F2111;
+    }
+    .main-message-scripts-para>p{
+        padding: 2vh 0;
+        font-size: calc(1.125rem + ((1vw - 3px) * 1.3));
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .main-message{
+        width: 100%;
+        position: relative;
+        background-image: url(../img/bgimg-sp-message.png);
+        background-size: cover;
+        padding-top: 0;
+        top:0;
+    }
+    .main-message-speech{
+        display: none;
     }
     .main-message-vivid{
         width: 90%;
@@ -211,42 +289,36 @@ body {
         padding: 1vh 0;
         margin: 0 auto;
     }
-    .main-message-scripts>h2{
-        text-align: center;
-        font-size: calc(1.5rem + ((1vw - 3.75px) * 4.6225));
-        margin: 5vh auto 0 auto;
-        color: #4F2111;
-    }
-    .main-message-scripts>div{
-        width: 70%;
-        margin: 0 auto;
-        padding: 3vh 0;
-        color: #4F2111;
-    }
-    .main-message-scripts>div>p{
-        padding: 2vh 0;
-    }
-}
-
-@media screen and (min-width:1024px) {
-    .main-message{
-        width: 100%;
-        position: relative;
-        background-image: none;
-        padding-top: 0;
-        top:0;
-    }
-    .main-message-first{
-        background-image: url(../img/pc-first.png);
-        background-size: cover;
-    }
     .main-message-scripts{
-        background-image: url(../img/pc-contents.png);
-        background-size: cover;
+        display: flex;
     }
-    .main-message-scripts>h2{
+    .main-message-scripts-headline{
+        width: 50%;
+        font-size: calc(2.875rem + ((1vw - 10.24px) * 3.5156));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-message-scripts-headline>h2{
         text-align: center;
-        font-size: 54px;
+        font-size: 48px;
+        color: #4F2111;
+        padding-bottom: 3vh;
+    }
+    .main-message-scripts-para{
+        width: 50%;
+        display: flex;
+        margin: 0 auto;
+        padding: 3vh 2.5% 0 7.5%;
+        color: #4F2111;
+        flex-direction: column;
+        align-items: ;
+    }
+    .main-message-scripts-para>p{
+        padding: 20px 0;
+        font-size: calc(1.25rem + ((1vw - 10.24px) * 1.3021));
     }
 }
 
@@ -286,13 +358,13 @@ body {
     .main-whats{
         width: 100%;
         position: relative;
-        height: 100vh;
+        height: 85vh;
         background-image: url(../img/bgimg.png);
         background-size: cover;
     }
     .main-whats>h2{
         padding: 7vh 0 2vh 0;
-        font-size: 54px;
+        font-size: calc(3.375rem + ((1vw - 10.24px) * 2.8646));
         text-align: center;
     }
     .main-whats>img{
@@ -317,10 +389,11 @@ body {
         height: 50%;
         position: absolute;
         left: 62.5%;
-        top: 50%;
+        top: 45%;
+        padding: 0; 
     }
     .main-whats-scripts>p{
-        font-size: 24px;
+        font-size: calc(1rem + ((1vw - 10.24px) * 1.6927));
     }
 }
 
@@ -340,41 +413,44 @@ body {
         padding-top: 4vh;
         font-size: calc(1.25rem + ((1vw - 3.75px) * 5.2388));
     }
-    .main-event>img{
-        max-width: 100%;
-        height: 30vh;
+    .main-event>a>img{
+        width: 90%;
         object-fit: cover;
         display: block;
         margin:0 auto 2vh auto;
     }
     .main-event>div{
-        width: 30%;
-        padding: 2vh 0;
+        width: 50%;
+        padding: 1vh 0;
         background-color: #fafa02;
-        border-radius: 11vh;
         margin: 0 auto;
     }
-    .main-event>a{
+    .main-event>div>a{
         display: block;
         width: 100%;
-        padding: 2vh 3%;
+        padding: 0.5vh 3%;
         margin: 0 auto;
         color: #4F2111;
         text-decoration: none;
-        font-size: 24px;
+        font-size: 16px;
     }
 }
 
 @media screen and (min-width:1024px){
     .main-event{
-        height: 90vh;
         width: 100%;
         text-align: center;
+        padding: 0;
+        margin-top: 0;
+    }
+    .contents-inner{
+        padding-top: 12vh;
+        margin-top: -12vh;
     }
     .main-event>h2{
-        padding: 7vh 0 2vh 0;
-        font-size: 54px;
-        margin: 0;
+        padding-bottom: 2vh;
+        font-size: calc(3.375rem + ((1vw - 10.24px) * 2.8646));
+        text-align: center;
     }
     .main-event>img{
         max-width: 80%;
@@ -385,10 +461,9 @@ body {
     }
     .main-event>div{
         width: 30%;
-        height: 4vh;
-        padding: 5vh 0;
+        height: 6vh;
+        padding: 1vh 5%;
         background-color: #fafa02;
-        border-radius: 11vh;
     }
     .main-event>a{
         display: block;
@@ -397,7 +472,7 @@ body {
         margin: 0 auto;
         color: #4F2111;
         text-decoration: none;
-        font-size: 24px;
+        font-size: 30px;
     }
 }
 
@@ -477,9 +552,9 @@ body {
         padding-bottom: 7vh;
     }
     .main-activity>h2{
-        margin: 0 auto;
         padding: 7vh 0 2vh 0;
-        font-size: 54px;
+        font-size: calc(3.375rem + ((1vw - 10.24px) * 2.8646));
+        text-align: center;
     }
     .main-activity-script{
         width: 85%;
@@ -489,12 +564,12 @@ body {
     }
     .main-activity-script>h3{
         margin: 0 auto 2vh auto;
-        font-size: 40px;
+        font-size: calc(2.5rem + ((1vw - 10.24px) * 2.6042));
         color: #4f2111;
         font-weight: bold;
     }
     .main-activity-script>p{
-        font-size: 26px;
+        font-size: calc(1.5rem + ((1vw - 10.24px) * 0.7813));
         text-align: left;
         color: #4f2111;
         font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
@@ -522,7 +597,7 @@ body {
         object-fit: cover;
     }
     .main-activity-articles-item>ul{
-        width: 60%;
+        width: 80%;
         background-color: #fafa02;
         margin: 1vh auto 3vh auto;
         padding: 2vh 10%;
@@ -531,7 +606,7 @@ body {
     .main-activity-articles-item>ul>li{
         color: #4f2111;
         text-align: left;
-        font-size: 24px;
+        font-size: calc(1.125rem + ((1vw - 10.24px) * 1.1719));
         list-style-type: disc;
         font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
     }
@@ -602,6 +677,8 @@ footer{
     .footer-titlelogo{
         width: 50%;
         height: auto;
+        position: relative;
+        top: 4vh;
     }
     .footer-QR{
         width: 20%;
