@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_sidebar(); ?>
     <main>
         <section class="main-message">
             <div class="main-message-first">
