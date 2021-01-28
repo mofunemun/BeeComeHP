@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/front.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
@@ -17,7 +18,7 @@
             <div class="aside-sp-nav-item"><a href="#contact">CONTACT</a></div>
             <div class="aside-sp-nav-item">
                 <a href="https://www.instagram.com/beecome_hirosaki/?hl=ja">
-                    <img src="img/QRcode.png" alt="インスタ用QRコードです">
+                    <img src="img/insta.png" alt="インスタ用QRコードです">
                 </a>
             </div>
         </nav>
@@ -25,6 +26,7 @@
     <a href="#" class="backtotop"><img src="img/back-to-top.png" alt="トップに戻る"></a>
     <nav class="header-PC">
         <img class="header-logo" src="img/BeeCome-logo.png" alt="BeeComeのロゴ">
+        <img class="header-titlelogo" src="img/BeeCome-textrogo.png" alt="BeeComeのタイトルロゴ">
         <div>
             <div><a href="#home"><span class="header-menu-JP">ホーム</span><br><span>HOME</span></a></div>
             <div><a href="#event"><span class="header-menu-JP">イベント</span><br><span>EVENT</span></a></div>
@@ -77,9 +79,13 @@
         </section>
         <section class="main-event contents-inner" id="event">
             <h2>EVENT</h2>
-            <a href=""><img src="img/kaikousya.png" alt="イベントの画像です"></a>
+            <ul class="slick">
+                <li class="slick-items"><img src="img/slide-img.png" alt="イベントの画像です"></li>
+                <li class="slick-items"><img src="img/kaikousya-air.png" alt="イベントの画像です"></li>
+                <li class="slick-items"><img src="img/slide-img.png" alt="イベントの画像です"></li>
+            </ul>
             <div>
-                <a href="#">イベント詳細ページへ</a>
+                <a href="event-post.jpg">イベント詳細ページへ</a>
             </div>
         </section>
         <section class="main-whats">
@@ -151,5 +157,6 @@
         <p class="footer-subcopyrights">学生団体　＠ぼくらしNext&times;HeroJect&times;青森県&times;NPO法人SEEDS SEEDS NETWORK</p>
     </footer>
     <script src="./aside.js"></script>
+    <script src="./slick.min.js"></script>
 </body>
 </html>

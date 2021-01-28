@@ -1,4 +1,7 @@
 /* 文字種指定 */
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'HGGothicE',sans-serif;
     width: 100vw;
@@ -93,6 +96,9 @@ body {
         width: auto;
         object-fit: cover;
     }
+    .header-titlelogo{
+        display: none;
+    }
     .header-sp{
         width: 20%;
         height: 10vh;
@@ -138,7 +144,7 @@ body {
         position: fixed;
         left: 90%;
         top: 80%;
-        z-index: 4;
+        z-index: 15;
     }
     .backtotop>img{
         width: 100%;
@@ -151,6 +157,13 @@ body {
         height: 12vh;
         width: auto;
         padding: 1%;
+    }
+    .header-titlelogo{
+        height: 12vh;
+        padding: 2vh 2%;
+        width: auto;
+        object-fit: cover;
+        display: block;
     }
     .header-PC>div{
         width: 50%;
@@ -412,11 +425,9 @@ body {
         padding-top: 4vh;
         font-size: calc(1.25rem + ((1vw - 3.75px) * 5.2388));
     }
-    .main-event>a>img{
+    .slick-items>img{
         width: 90%;
-        object-fit: cover;
-        display: block;
-        margin:0 auto 2vh auto;
+        margin: 0 auto;
     }
     .main-event>div{
         width: 50%;
@@ -432,6 +443,9 @@ body {
         color: #4F2111;
         text-decoration: none;
         font-size: 16px;
+    }
+    .slide-arrow{
+        width: 0;
     }
 }
 
@@ -451,12 +465,18 @@ body {
         font-size: calc(3.375rem + ((1vw - 10.24px) * 2.8646));
         text-align: center;
     }
-    .main-event>img{
-        max-width: 80%;
-        height: 50vh;
+    .slick{
+        width: 100%;
+    }
+    .slick-items>img{
+        width: 80%;
+        margin: 0 auto;
         object-fit: cover;
         display: block;
-        margin: 5vh auto 7vh auto;
+        z-index: 2;
+    }
+    .slide-arrow{
+        width: 5%;
     }
     .main-event>div{
         width: 30%;
@@ -467,7 +487,6 @@ body {
     .main-event>a{
         display: block;
         width: 100%;
-        padding: 2vh 3%;
         margin: 0 auto;
         color: #4F2111;
         text-decoration: none;
