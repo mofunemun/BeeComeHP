@@ -11,3 +11,4 @@ function beecome_script(){
         wp_enqueue_script( 'aside', get_template_directory_uri().'/aside.js', array(), '1.0.0', true);
         wp_enqueue_script( 'slick', get_template_directory_uri().'/slick.min.js', array(), '1.0.0', true); 
 }
+add_action( 'wp_enqueue_scripts', 'beecome_script' );
