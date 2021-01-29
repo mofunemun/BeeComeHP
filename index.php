@@ -47,7 +47,7 @@
                 <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/slide-img.png" alt="イベントの画像です"></li>
             </ul>
             <div>
-                <a href="event-post.jpg">イベント詳細ページへ</a>
+                <a href="<?php get_template_directory_uri(); ?>/event-post.jpg">イベント詳細ページへ</a>
             </div>
         </section>
         <section class="main-whats">
