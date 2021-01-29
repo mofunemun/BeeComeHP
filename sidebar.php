@@ -6,15 +6,15 @@
             <div class="aside-sp-nav-item"><a href="#contact">CONTACT</a></div>
             <div class="aside-sp-nav-item">
                 <a href="https://www.instagram.com/beecome_hirosaki/?hl=ja">
-                    <img src="img/insta.png" alt="インスタ用QRコードです">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/insta.png" alt="インスタ用QRコードです">
                 </a>
             </div>
         </nav>
     </aside>
-    <a href="#" class="backtotop"><img src="img/back-to-top.png" alt="トップに戻る"></a>
+    <a href="#" class="backtotop"><img src="<?php echo get_template_directory_uri(); ?>/img/back-to-top.png" alt="トップに戻る"></a>
     <nav class="header-PC">
-        <img class="header-logo" src="img/BeeCome-logo.png" alt="BeeComeのロゴ">
-        <img class="header-titlelogo" src="img/BeeCome-textrogo.png" alt="BeeComeのタイトルロゴ">
+        <img class="header-logo" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-logo.png" alt="BeeComeのロゴ">
+        <img class="header-titlelogo" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="BeeComeのタイトルロゴ">
         <div>
             <div><a href="#home"><span class="header-menu-JP">ホーム</span><br><span>HOME</span></a></div>
             <div><a href="#event"><span class="header-menu-JP">イベント</span><br><span>EVENT</span></a></div>

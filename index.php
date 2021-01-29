@@ -4,10 +4,10 @@
     <main>
         <section class="main-message">
             <div class="main-message-first">
-                <img class="main-message-speech" src="img/speech-and-bee.png" alt="">
-                <img class="main-message-vivid" src="img/BeeCome-textrogo.png" alt="">
-                <img class="main-message-semivivid" src="img/BeeCome-textrogo.png" alt="">
-                <img class="main-message-vague" src="img/BeeCome-textrogo.png" alt="">
+                <img class="main-message-speech" src="<?php echo get_template_directory_uri(); ?>/img/speech-and-bee.png" alt="">
+                <img class="main-message-vivid" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="">
+                <img class="main-message-semivivid" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="">
+                <img class="main-message-vague" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="">
             </div>
             <article class="main-message-scripts">
                 <div class="main-message-scripts-headline" >
@@ -42,9 +42,9 @@
         <section class="main-event contents-inner" id="event">
             <h2>EVENT</h2>
             <ul class="slick">
-                <li class="slick-items"><img src="img/slide-img.png" alt="イベントの画像です"></li>
-                <li class="slick-items"><img src="img/kaikousya-air.png" alt="イベントの画像です"></li>
-                <li class="slick-items"><img src="img/slide-img.png" alt="イベントの画像です"></li>
+                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/slide-img.png" alt="イベントの画像です"></li>
+                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/kaikousya-air.png" alt="イベントの画像です"></li>
+                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/slide-img.png" alt="イベントの画像です"></li>
             </ul>
             <div>
                 <a href="event-post.jpg">イベント詳細ページへ</a>
@@ -52,8 +52,8 @@
         </section>
         <section class="main-whats">
             <h2>What's BeeCome?</h2>
-            <img class="main-whats-logoimg" src="img/BeeCome-logo.png" alt="ロゴの蜂の画像です">
-            <img class="main-whats-lectureimg" src="img/lecture.png" alt="活動の様子です">
+            <img class="main-whats-logoimg" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-logo.png" alt="ロゴの蜂の画像です">
+            <img class="main-whats-lectureimg" src="<?php echo get_template_directory_uri(); ?>/img/lecture.png" alt="活動の様子です">
             <div class="main-whats-scripts">
                 <p>
                     　”BeeCome”は学生が自分自身のやりたいことを実現させる団体です。<br>
@@ -76,7 +76,7 @@
             <div class="main-activity-articles">
                 <article class="main-activity-articles-item">
                     <h4>企画班</h4>
-                    <img src="img/project-students.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/project-students.png" alt="">
                     <ul>
                         <li>０&rarr;１を作る経験</li>
                         <li>企画・マネジメント</li>
@@ -84,7 +84,7 @@
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>広報班</h4>
-                    <img src="img/project-students.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/project-students.png" alt="">
                     <ul>
                         <li>デザインの実践</li>
                         <li>取材・編集・ライティング</li>
@@ -92,7 +92,7 @@
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>IT班</h4>
-                    <img src="img/project-students.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/project-students.png" alt="">
                     <ul>
                         <li>Webデザインの実践をしたい</li>
                         <li>プログラミングの実践</li>
@@ -100,7 +100,7 @@
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>動画班</h4>
-                    <img src="img/project-students.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/project-students.png" alt="">
                     <ul>
                         <li>動画制作を1から学ぶ</li>
                         <li>動画企画・撮影・編集の基本と実践</li>
