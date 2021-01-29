@@ -1,3 +1,4 @@
+jQuery(function($){
 $(".header-sp").on('click',function(){
     $(".header-sp").toggleClass("is-open");
     $("aside").toggleClass("is-open");
@@ -28,4 +29,5 @@ $(function(){
     $("#slider").slick({
       dotsClass: 'slide-dots'
     });
+});
 });
