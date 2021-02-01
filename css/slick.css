@@ -114,26 +114,6 @@
 
     border: 1px solid transparent;
 }
-.slick-arrow.slick-hidden {
-    display: none;
-}
-.prev-arrow,.next-arrow{
-    width: 5%;
-    height: auto;
-}
-.slick-arrow{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: 10;
-}
-.prev-arrow{
-    left: 2%;
-}
-.next-arrow{
-    right: 2%;
-}
 .slick-dots{
     display: block;
     margin: 5vh auto;

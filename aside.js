@@ -19,9 +19,7 @@ $(function() {
     $('.slick').slick({
         autoplay: false,
         dots: true,
-        arrows: true,
-        prevArrow:'<img src="<?php echo get_template_directory_uri(); ?>/img/arrow-left.png" class="slide-arrow prev-arrow">',
-        nextArrow:'<img src="<?php echo get_template_directory_uri(); ?>/img/arrow-right.png" class="slide-arrow next-arrow">',
+        arrows: false,
     });
 });
 
