@@ -79,7 +79,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/project-students.png" alt="">
                     <ul>
                         <li>０&rarr;１を作る経験</li>
-                        <li>企画・マネジメント</li>
+                        <li>企画</li>
                     </ul>
                 </article>
                 <article class="main-activity-articles-item">
