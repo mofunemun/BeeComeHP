@@ -1,6 +1,6 @@
 
-<?php get_header(); ?>
-<?php get_sidebar(); ?>
+<?php get_header(''); ?>
+<?php get_sidebar(''); ?>
     <main>
         <section class="main-message">
             <div class="main-message-first">
@@ -76,7 +76,7 @@
             <div class="main-activity-articles">
                 <article class="main-activity-articles-item">
                     <h4>企画班</h4>
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/project-students.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/kikaku.jpg" alt="">
                     <ul>
                         <li>０&rarr;１を作る経験</li>
                         <li>企画</li>
@@ -84,7 +84,7 @@
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>広報班</h4>
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/project-students.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/kouhou.jpg" alt="">
                     <ul>
                         <li>デザインの実践</li>
                         <li>取材・編集・ライティング</li>
@@ -92,7 +92,7 @@
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>IT班</h4>
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/project-students.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/it.jpg" alt="">
                     <ul>
                         <li>Webデザインの実践をしたい</li>
                         <li>プログラミングの実践</li>
@@ -100,7 +100,7 @@
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>動画班</h4>
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/project-students.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/douga.jpg" alt="">
                     <ul>
                         <li>動画制作を1から学ぶ</li>
                         <li>動画企画・撮影・編集の基本と実践</li>
@@ -109,5 +109,5 @@
             </div>
         </section>
     </main>
-<?php get_footer(); ?>
+<?php get_footer(''); ?>
     
