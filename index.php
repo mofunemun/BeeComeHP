@@ -28,7 +28,7 @@
                     </p>
                     <p>
                         行動しないことを、<br>
-                        ウイルスの性には出来ないだろう。
+                        ウイルスのせいには出来ないだろう。
                     </p>
                     <p>
 
@@ -42,9 +42,8 @@
         <section class="main-event contents-inner" id="event">
             <h2>EVENT</h2>
             <ul class="slick">
-                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/slide-img.png" alt="イベントの画像です"></li>
-                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/kaikousya-air.png" alt="イベントの画像です"></li>
-                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/slide-img.png" alt="イベントの画像です"></li>
+                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/hitotabihirosaki.jpg" alt="イベントの画像です"></li>
+<!--                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/kaikousya-air.png" alt="イベントの画像です"></li>-->
             </ul>
             <div>
                 <a href="<?php get_template_directory_uri(); ?>/event-post.jpg">イベント詳細ページへ</a>
@@ -58,8 +57,7 @@
                 <p>
                     　”BeeCome”は学生が自分自身のやりたいことを実現させる団体です。<br>
                     　BeeComeの学生は、講座で学習し、得た知識・技術を用いてイベントの企画運営を行います。<br>
-                    　企画班・ 広報班・ IT班・ 動画班に分かれます(詳細はACTIVITYにてご覧下さい)。
-                    講座では班ごとに専門性をもった企業を講師としてお呼びします。
+                    　青森県内の企業を講師としてお呼びし、企画班・ 広報班・ IT班・ 動画班に分かれそれぞれの専門性を身につけることを目的とします。
                 </p>
             </div>
         </section>
@@ -68,9 +66,9 @@
             <div class="main-activity-script">
                 <h3>ポータブルスキルの習得と実践</h3>
                 <p>
-                    ポータブルスキルとは、どのような仕事でも通用する「持ち運び可能な持ち運び可能な能力」です。<br>
-                    BeeComeでは、講師企業から専門知識・技術を教わります。<br>
-                    それをもとに地域交流イベントを開催し、実践を通して専門知識・技術をポータブルスキルとして習得します。
+                    　ポータブルスキルとは、どのような仕事でも通用する「持ち運び可能な能力」です。<br>
+                    　BeeComeでは、講師企業から専門知識・技術を教わり、学んだ知識をもとに地域交流イベントを開催します。<br>
+                    　実践を通して専門知識・技術をポータブルスキルとして習得することで、多様性に長けたクリエイティブな人材を目指すことができます。
                 </p>
             </div>
             <div class="main-activity-articles">
@@ -79,7 +77,9 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/kikaku.jpg" alt="">
                     <ul>
                         <li>０&rarr;１を作る経験</li>
-                        <li>企画</li>
+                        <li>企画・運営</li>
+                        <br>
+                        <h5>講師企業：株式会社QLOCK UP</h5>
                     </ul>
                 </article>
                 <article class="main-activity-articles-item">
@@ -88,6 +88,10 @@
                     <ul>
                         <li>デザインの実践</li>
                         <li>取材・編集・ライティング</li>
+                        <br>
+                        <h5>講師企業：株式会社エスパス</h5>
+                        <h5>　　　　株式会社字と図</h5>
+                        
                     </ul>
                 </article>
                 <article class="main-activity-articles-item">
@@ -96,6 +100,8 @@
                     <ul>
                         <li>Webデザインの実践をしたい</li>
                         <li>プログラミングの実践</li>
+                        <br>
+                        <h5>講師企業：株式会社コンシス</h5>
                     </ul>
                 </article>
                 <article class="main-activity-articles-item">
@@ -104,6 +110,8 @@
                     <ul>
                         <li>動画制作を1から学ぶ</li>
                         <li>動画企画・撮影・編集の基本と実践</li>
+                        <br>
+                        <h5>講師企業：株式会社SCIENCE WORKS.</h5>
                     </ul>
                 </article>
             </div>
