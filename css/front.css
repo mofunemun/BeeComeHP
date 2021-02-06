@@ -562,6 +562,9 @@ body {
         list-style-type: disc;
         font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
     }
+    .main-activity-articles-item>ul>h5{
+        color: #4f2111;
+    }
 }
 
 @media screen and (min-width:1024px){
