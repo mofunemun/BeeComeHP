@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 5ec1e200397b22037df8da3dac3822b19d1d3eb2
 <?php get_header(''); ?>
 <?php get_sidebar(''); ?>
     <main>
@@ -45,14 +41,9 @@
         <section class="main-event contents-inner" id="event">
             <h2>EVENT</h2>
             <ul class="slick">
-<<<<<<< HEAD
               	<li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/hitotabihirosaki.jpg" alt="イベントの画像です"></li>
                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/kaikousya-air.png" alt="イベントの画像です"></li>
 					<li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/hitotabihirosaki.jpg" alt="イベントの画像です"></li>
-=======
-                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/hitotabihirosaki.jpg" alt="イベントの画像です"></li>
-<!--                <li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/kaikousya-air.png" alt="イベントの画像です"></li>-->
->>>>>>> 5ec1e200397b22037df8da3dac3822b19d1d3eb2
             </ul>
             <div>
                 <a href="<?php get_template_directory_uri(); ?>/event-post.jpg">イベント詳細ページへ</a>
@@ -88,11 +79,7 @@
                         <li>０&rarr;１を作る経験</li>
                         <li>企画・運営</li>
                         <br>
-<<<<<<< HEAD
                         <h4>講師企業：株式会社QLOCK UP</h4>
-=======
-                        <h5>講師企業：株式会社QLOCK UP</h5>
->>>>>>> 5ec1e200397b22037df8da3dac3822b19d1d3eb2
                     </ul>
                 </article>
                 <article class="main-activity-articles-item">
@@ -102,13 +89,8 @@
                         <li>デザインの実践</li>
                         <li>取材・編集・ライティング</li>
                         <br>
-<<<<<<< HEAD
                         <h4>講師企業：株式会社エスパス</h4>
                         <h4>　　　　株式会社字と図</h4>
-=======
-                        <h5>講師企業：株式会社エスパス</h5>
-                        <h5>　　　　株式会社字と図</h5>
->>>>>>> 5ec1e200397b22037df8da3dac3822b19d1d3eb2
                         
                     </ul>
                 </article>
@@ -119,11 +101,7 @@
                         <li>Webデザインの実践をしたい</li>
                         <li>プログラミングの実践</li>
                         <br>
-<<<<<<< HEAD
                         <h4>講師企業：株式会社コンシス</h4>
-=======
-                        <h5>講師企業：株式会社コンシス</h5>
->>>>>>> 5ec1e200397b22037df8da3dac3822b19d1d3eb2
                     </ul>
                 </article>
                 <article class="main-activity-articles-item">
@@ -139,9 +117,4 @@
             </div>
         </section>
     </main>
-<<<<<<< HEAD
 <?php get_footer(''); ?>
-=======
-<?php get_footer(''); ?>
-    
->>>>>>> 5ec1e200397b22037df8da3dac3822b19d1d3eb2
