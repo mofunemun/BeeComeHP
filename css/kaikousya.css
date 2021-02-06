@@ -10,7 +10,7 @@
 aside{
     width: 100%;
     height: 100vh;
-    background-image: url("../img/first-back-s.png");
+    background-image: url("../img/first-back-s.jpg");
     position: absolute;
     top: -100vh;
     transition: top 0.3s 0s ease-in-out;
