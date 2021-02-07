@@ -52,20 +52,22 @@ height: 12vh;
   margin: 0;
   height: 12vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   align-items: center;
 }
   
   .header-logo{
-      height:10vh;
-      width: auto;
+      width:20%;
+      height: auto;
       object-fit: contain;
+      margin: 0 5%;
   }
   
   .header-titlelogo{
-      height: 4vh;
-      width: auto;
+      width: 65%;
+      height: auto;
       object-fit: contain;
+      margin-right: 5%;
   }
   
   .header-nav>nav{
