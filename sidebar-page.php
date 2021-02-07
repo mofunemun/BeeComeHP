@@ -8,8 +8,10 @@
         </nav>
       </aside>
         <div class="header-nav">
-          <img class="header-logo" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-logo.png" alt="BeeComeのロゴ">
+			<div>
+					<img class="header-logo" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-logo.png" alt="BeeComeのロゴ">
           <img class="header-titlelogo" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="BeeComeのタイトルロゴ">
+			</div>
           <nav>
               <a href="#first-block">HOME</a>
               <a href="#second-block">EVENT</a>
