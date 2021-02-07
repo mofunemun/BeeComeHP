@@ -78,9 +78,10 @@
                     <ul>
                         <li>０&rarr;１を作る経験</li>
                         <li>企画・運営</li>
-                        <br>
-                        <h4>講師企業：株式会社QLOCK UP</h4>
                     </ul>
+                    <div class="main-activity-articles-item-company">
+                        <h4>講師企業：株式会社QLOCK UP</h4>
+                    </div>
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>広報班</h4>
@@ -88,12 +89,12 @@
                     <ul>
                         <li>デザインの実践</li>
                         <li>取材・編集・ライティング</li>
-                        <br>
-                        <h4>講師企業：株式会社エスパス</h4>
-                        <h4>株式会社字と図</h4>
-                        <h4>OG-chance</h4>
-                        
                     </ul>
+                    <div class="main-activity-articles-item-company">
+                        <h4>講師企業：株式会社エスパス</h4>
+                        <h4>株式会社字と図</h4>
+                        <h4>OG-chance</h4>
+                    </div>
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>IT班</h4>
@@ -101,9 +102,10 @@
                     <ul>
                         <li>Webデザインの実践をしたい</li>
                         <li>プログラミングの実践</li>
-                        <br>
-                        <h4>講師企業：株式会社コンシス</h4>
                     </ul>
+                    <div class="main-activity-articles-item-company">
+                        <h4>講師企業：株式会社コンシス</h4>
+                    </div>
                 </article>
                 <article class="main-activity-articles-item">
                     <h4>動画班</h4>
@@ -111,9 +113,10 @@
                     <ul>
                         <li>動画制作を1から学ぶ</li>
                         <li>動画企画・撮影・編集の基本と実践</li>
-                        <br>
-                        <h5>講師企業：株式会社SCIENCE WORKS.</h5>
                     </ul>
+                    <div class="main-activity-articles-item-company">
+                        <h4>講師企業：株式会社SCIENCE WORKS.</h4>
+                    </div>
                 </article>
             </div>
         </section>

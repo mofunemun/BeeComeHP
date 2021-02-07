@@ -565,6 +565,13 @@ body {
     .main-activity-articles-item>ul>h5{
         color: #4f2111;
     }
+    .main-activity-articles-item-company{
+        margin-top: 3vh;
+    }
+    .main-activity-articles-item-company>h4{
+        font-size: calc(1rem + ((1vw - 3px) * 1.6575));
+        color: #4F2111;
+    }
 }
 
 @media screen and (min-width:1024px){
@@ -630,6 +637,13 @@ body {
         font-size: calc(1.125rem + ((1vw - 10.24px) * 1.1719));
         list-style-type: disc;
         font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+    }
+    .main-activity-articles-item-company{
+        margin-top: 3vh;
+    }
+    .main-activity-articles-item-company>h4{
+        font-size: calc(1.75rem + ((1vw - 10.24px) * 0.7813));
+        color: #4F2111;
     }
 }
 
