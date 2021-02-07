@@ -79,7 +79,7 @@
                         <li>０&rarr;１を作る経験</li>
                         <li>企画・運営</li>
                         <div class="main-activity-articles-item-company">
-                            <h4>講師企業：株式会社QLOCK UP</h4>
+                            <p><span>講師企業：</span>株式会社QLOCK UP</p>
                         </div>
                     </ul>
                 </article>
@@ -90,9 +90,9 @@
                         <li>デザインの実践</li>
                         <li>取材・編集・ライティング</li>
                         <div class="main-activity-articles-item-company">
-                            <h4>講師企業：株式会社エスパス</h4>
-                            <h4>株式会社字と図</h4>
-                            <h4>OG-chance</h4>
+                            <p><span>講師企業：</span>株式会社エスパス
+                            <span></span>株式会社字と図
+                            <span></span>OG-chance</p>
                         </div>
                     </ul>
                 </article>
@@ -103,7 +103,7 @@
                         <li>Webデザインの実践をしたい</li>
                         <li>プログラミングの実践</li>
                         <div class="main-activity-articles-item-company">
-                            <h4>講師企業：株式会社コンシス</h4>
+                            <p><span>講師企業：</span>株式会社コンシス</p>
                         </div>
                     </ul>
                 </article>
@@ -114,7 +114,7 @@
                         <li>動画制作を1から学ぶ</li>
                         <li>動画企画・撮影・編集の基本と実践</li>
                         <div class="main-activity-articles-item-company">
-                            <h4>講師企業：株式会社SCIENCE WORKS.</h4>
+                            <p><span>講師企業：</span>株式会社SCIENCE WORKS.</p>
                         </div>
                     </ul>
                 </article>

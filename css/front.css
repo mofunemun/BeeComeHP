@@ -568,9 +568,13 @@ body {
     .main-activity-articles-item-company{
         margin-top: 3vh;
     }
-    .main-activity-articles-item-company>h4{
-        font-size: calc(0.75rem + ((1vw - 3px) * 1.6575));
+    .main-activity-articles-item-company>p{
+        font-size: calc(0.625rem + ((1vw - 3px) * 0.5525));
         color: #4F2111;
+    }
+    .main-activity-articles-item-company>p>span{
+        display: inline-block;
+        width: 7em;
     }
 }
 
@@ -641,9 +645,13 @@ body {
     .main-activity-articles-item-company{
         margin-top: 3vh;
     }
-    .main-activity-articles-item-company>h4{
-        font-size: 24px;
+    .main-activity-articles-item-company>p{
+        font-size: 14px;
         color: #4F2111;
+    }
+    .main-activity-articles-item-company>p>span{
+        display: inline-block;
+        width: 7em;
     }
 }
 
