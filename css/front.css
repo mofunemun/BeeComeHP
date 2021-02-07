@@ -569,7 +569,7 @@ body {
         margin-top: 3vh;
     }
     .main-activity-articles-item-company>h4{
-        font-size: calc(1rem + ((1vw - 3px) * 1.6575));
+        font-size: calc(0.75rem + ((1vw - 3px) * 1.6575));
         color: #4F2111;
     }
 }
@@ -642,7 +642,7 @@ body {
         margin-top: 3vh;
     }
     .main-activity-articles-item-company>h4{
-        font-size: calc(1.75rem + ((1vw - 10.24px) * 0.7813));
+        font-size: 24px;
         color: #4F2111;
     }
 }
