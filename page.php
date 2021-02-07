@@ -90,8 +90,8 @@
                         <li>デザインの実践</li>
                         <li>取材・編集・ライティング</li>
                         <div class="main-activity-articles-item-company">
-                            <p><span>講師企業：</span>株式会社エスパス
-                            <span></span>株式会社字と図
+                            <p><span>講師企業：</span>株式会社エスパス<br>
+                            <span></span>株式会社字と図<br>
                             <span></span>OG-chance</p>
                         </div>
                     </ul>
