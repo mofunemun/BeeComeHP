@@ -135,7 +135,7 @@
             </p>
            </div>
         </div>
-        <div class="note-container">
+        <div id="sixth-block" class="note-container">
           <h4>参加にあたって</h4>
           <ul>
             <li>イベント当日時点での新型コロナウイルス感染症対策専門会議の発表を踏まえ、<br>
@@ -144,6 +144,7 @@
             <li>ゴミの持ち帰りにご協力をお願いします。</li>
             <li>水を供給する場所、洗う場所がございませんので、あらかじめご了承ください。</li>
           </ul>
+        </div>
     </section>
 <?php get_footer('page'); ?>
   

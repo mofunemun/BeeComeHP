@@ -1,10 +1,10 @@
 <aside class="aside-sp">
         <nav>
-            <div class="aside-sp-nav-item"><a href="#event">MOVIE</a></div>
-            <div class="aside-sp-nav-item"><a href="#activity">イベント概要</a></div>
-            <div class="aside-sp-nav-item"><a href="#contact">出店者情報</a></div>
-            <div class="aside-sp-nav-item"><a href="#contact">アクセス</a></div>
-            <div class="aside-sp-nav-item"><a href="#contact">注意事項</a></div>
+            <div class="aside-sp-nav-item"><a href="#second-block">MOVIE</a></div>
+            <div class="aside-sp-nav-item"><a href="#third-block">イベント概要</a></div>
+            <div class="aside-sp-nav-item"><a href="#fourth-block">出店者情報</a></div>
+            <div class="aside-sp-nav-item"><a href="#fifth-block">アクセス</a></div>
+            <div class="aside-sp-nav-item"><a href="#sixth-block">注意事項</a></div>
         </nav>
       </aside>
         <div class="header-nav">
