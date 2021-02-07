@@ -64,8 +64,22 @@
                 <input type="checkbox" id="label2" class="cssacc" />
                   <div class="craft-index">
                     <div class="craft-card">
-                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/kogin.jpg" alt="">
-                      <p class="craft-info">弘前こぎん研究所<br>
+                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/coton.png" alt="">
+                      <p class="craft-info">coton<br>
+                      <u class="craft-address">〒000-0000<br>
+                                            弘前市御幸町00　0000-00-0000</u>
+                      </p>
+                    </div>
+                    <div class="craft-card">
+                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/everydaygift1.png" alt="">
+                      <p class="craft-info">everydaygift<br>
+                      <u class="craft-address">〒000-0000<br>
+                                            弘前市御幸町00　0000-00-0000</u>
+                      </p>
+                    </div>
+                    <div class="craft-card">
+                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/silli-sewing.png" alt="">
+                      <p class="craft-info">silli-sewing<br>
                       <u class="craft-address">〒000-0000<br>
                                             弘前市御幸町00　0000-00-0000</u>
                       </p>
@@ -73,41 +87,27 @@
                     <div class="craft-card">
                       <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/kogin.jpg" alt="">
                       <p class="craft-info">弘前こぎん研究所<br>
-                      <u class="craft-address">〒000-0000<br>
-                                            弘前市御幸町00　0000-00-0000</u>
+                      <u class="craft-address">〒036-8216<br>
+                                            弘前市御幸町61　0172-32-0595</u>
                       </p>
                     </div>
                     <div class="craft-card">
-                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/kogin.jpg" alt="">
-                      <p class="craft-info">弘前こぎん研究所<br>
-                      <u class="craft-address">〒000-0000<br>
-                                            弘前市御幸町00　0000-00-0000</u>
+                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/zakka.png" alt="">
+                      <p class="craft-info">Zakka灯台<br>
+                      <u class="craft-address">〒036-8184<br>
+                                            弘前市松森町80-1　0172-55-8966</u>
                       </p>
                     </div>
                     <div class="craft-card">
-                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/kogin.jpg" alt="">
-                      <p class="craft-info">弘前こぎん研究所<br>
-                      <u class="craft-address">〒000-0000<br>
-                                            弘前市御幸町00　0000-00-0000</u>
+                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/chanabeko.png" alt="">
+                      <p class="craft-info">ちゃなべこ工房:<br>
+                      <u class="craft-address">〒036-8004<br>
+                                            弘前市大町2-5-10　0172-32-0913</u>
                       </p>
                     </div>
                     <div class="craft-card">
-                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/kogin.jpg" alt="">
-                      <p class="craft-info">弘前こぎん研究所<br>
-                      <u class="craft-address">〒000-0000<br>
-                                            弘前市御幸町00　0000-00-0000</u>
-                      </p>
-                    </div>
-                    <div class="craft-card">
-                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/kogin.jpg" alt="">
-                      <p class="craft-info">弘前こぎん研究所<br>
-                      <u class="craft-address">〒000-0000<br>
-                                            弘前市御幸町00　0000-00-0000</u>
-                      </p>
-                    </div>
-                    <div class="craft-card">
-                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/kogin.jpg" alt="">
-                      <p class="craft-info">弘前こぎん研究所<br>
+                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/coton.png" alt="">
+                      <p class="craft-info">学生ブース<br>
                       <u class="craft-address">〒000-0000<br>
                                             弘前市御幸町00　0000-00-0000</u>
                       </p>
