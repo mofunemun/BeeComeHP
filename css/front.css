@@ -566,7 +566,7 @@ body {
         color: #4f2111;
     }
     .main-activity-articles-item-company{
-        text-align: right;
+        text-align: left;
         margin: 3vh auto 0 auto;
     }
     .main-activity-articles-item-company>p{
@@ -645,7 +645,7 @@ body {
     }
     .main-activity-articles-item-company{
         margin: 3vh auto 0 auto;
-        text-align: right;
+        text-align: left;
     }
     .main-activity-articles-item-company>p{
         font-size: 14px;
