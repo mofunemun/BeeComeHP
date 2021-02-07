@@ -10,7 +10,7 @@
 aside{
   width: 100%;
   height: 100vh;
-  background-color: #EFE4B8;
+  background-color: rgba(239,228,184,0.5);
   position: absolute;
   top: -100vh;
   transition: top 0.3s 0s ease-in-out;  
@@ -23,7 +23,6 @@ aside.is-open{
 
 .aside-sp>nav{
   margin-top: 25vh;
-  background-color: #EFE4B8;
 }
 .aside-sp-nav-item{
   width: 100%;
