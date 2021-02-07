@@ -20,6 +20,7 @@
       <div class="shop-info">
         <h3>出店者一覧</h3>
               <div class="accbox">
+				  <h4 class="accbox-headline">フード・ドリンク</h4>
                 <label for="label1">フード・ドリンク</label>
                 <input type="checkbox" id="label1" class="cssacc" />
                   <div class="card-index">
@@ -59,7 +60,8 @@
                       <p class="card-text">1946年創業、青森の老舗和菓子店「二階堂」。身体に優しく美味しいお菓子作りにこだわり何度も試作した末にたどりついた至高の逸品”あおもり藍フィナンシェ”を発売します。</p>
                       <p class="card-address">〒036－8035 <br>弘前市百石町3-2　　0172-88-8504</p>
                     </article>
-                  </div>  
+                  </div>
+				  <h4 class="accbox-headline">ハンドクラフト</h4>
                 <label for="label2">ハンドクラフト</label>
                 <input type="checkbox" id="label2" class="cssacc" />
                   <div class="craft-index">
