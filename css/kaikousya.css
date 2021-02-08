@@ -612,10 +612,10 @@ font-size: 15px;
   text-align: center;
   }
 
-.map-container-main>p{
+.map-container-main>div>p{
   margin: 0%;
   padding: 0.5vh 0;
-  border: #4F2111 solid 1px;
+  border-bottom: #4F2111 solid 1px;
 }
 .map-container-main>img {
   margin-right: 10vw;
@@ -672,9 +672,20 @@ font-size: 15px;
   display: flex;
 }
 
-.map-container-main>p{
+.map-container-main>iframe{
+  width: 60%;
+}
+
+.map-container-main>div{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 5%;
+}
+
+.map-container-main>div>p{
   margin-right: 40px;
-  border: #4F2111 solid 1px;
+  border-bottom: #4F2111 solid 1px;
   padding: 0.5vh 0;
 }
 
