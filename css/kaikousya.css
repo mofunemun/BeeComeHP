@@ -686,7 +686,8 @@ font-size: 15px;
 
 .map-container-main>div>p{
   border-bottom: #4F2111 solid 1px;
-  padding: 3.5vh 0;
+  width: 100%;
+  padding-top: 3.5vh 0;
   height: 50%;
 }
 
