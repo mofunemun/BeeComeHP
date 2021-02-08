@@ -68,22 +68,21 @@
                     <div class="craft-card">
                       <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/coton.png" alt="">
                       <p class="craft-info">coton<br>
-                      <u class="craft-address">〒000-0000<br>
-                                            弘前市御幸町00　0000-00-0000</u>
+                      <u class="craft-address">cotonさんは青森で大人の日常着などを作られています。</u>
                       </p>
                     </div>
                     <div class="craft-card">
                       <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/everydaygift1.png" alt="">
                       <p class="craft-info">everydaygift<br>
-                      <u class="craft-address">〒000-0000<br>
-                                            弘前市御幸町00　0000-00-0000</u>
+                      <u class="craft-address">青森県在住ムラカミ ユリコさんによる出店です。<br>
+                      当日はヘアゴム、ブローチなどを販売していただきます。</u>
                       </p>
                     </div>
                     <div class="craft-card">
                       <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/silli-sewing.png" alt="">
                       <p class="craft-info">silli-sewing<br>
-                      <u class="craft-address">〒000-0000<br>
-                                            弘前市御幸町00　0000-00-0000</u>
+                      <u class="craft-address">はりねずみ好きの刺繍屋さん。<br>
+                      星座のブローチや様々な模様のヘアゴムなどを販売されています。</u>
                       </p>
                     </div>
                     <div class="craft-card">
@@ -110,8 +109,7 @@
                     <div class="craft-card">
                       <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/coton.png" alt="">
                       <p class="craft-info">学生ブース<br>
-                      <u class="craft-address">〒000-0000<br>
-                                            弘前市御幸町00　0000-00-0000</u>
+                      <u class="craft-address">yomogi.さんとSIKI〜四季〜さんによる出店になります。</u>
                       </p>
                     </div>
                   </div>
