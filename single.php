@@ -107,7 +107,7 @@
                       </p>
                     </div>
                     <div class="craft-card">
-                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/gakusei.png" alt="">
+                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/gakusei-booth.png" alt="">
                       <p class="craft-info">学生ブース<br>
                       <u class="craft-address">yomogi.さんとSIKI〜四季〜さんによる出店になります。</u>
                       </p>
