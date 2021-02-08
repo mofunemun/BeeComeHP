@@ -46,7 +46,7 @@
 					<li class="slick-items"><img src="<?php echo get_template_directory_uri(); ?>/img/hitotabihirosaki.jpg" alt="イベントの画像です"></li>
             </ul>
             <div>
-                <a href="<?php echo get_template_directory_uri(); ?>/kaikousya-event">イベント詳細ページへ</a>
+                <a href="<?php echo get_template_directory_uri(); ?>/kaikousya-event" target="_blank">イベント詳細ページへ</a>
             </div>
         </section>
         <section class="main-whats">
