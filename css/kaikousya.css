@@ -684,9 +684,9 @@ font-size: 15px;
 }
 
 .map-container-main>div>p{
-  margin-right: 40px;
   border-bottom: #4F2111 solid 1px;
   padding: 0.5vh 0;
+  height: 50%;
 }
 
 .note-container{
