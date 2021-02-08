@@ -28,37 +28,37 @@
                       <h5>antique&cafe ROTTO</h5> 
                       <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/rotto.png" alt="">
                       <p class="card-text">弘前市にあるアンティーク家具2階にある週末限定の隠れ家的カフェ「ロット堂」。1階で集めたアンティーク家具などを使い、テーブルや椅子にもこだわっています。店内では古本の展示販売を行われています。</p>
-                      <p class="card-address">〒036－8001 <br>弘前市代官町111-2　　0172-55-9174</p>
+                      <p class="card-address">〒036－8001 <br>弘前市代官町111-2<br>0172-55-9174</p>
                     </article>
                     <article class="shop-card">
                       <h5>浪漫須貯古齢糖</h5> 
                       <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/romance.png" alt="">
                       <p class="card-text">世界各国から厳選した高品質のカカオのみを選別、自家焙煎されている「浪漫須貯古齢糖」。カカオの魅力や可能性を最大限に活かし、ワンランク上のクラフトチョコレートを作られています。</p>
-                      <p class="card-address">〒036－8332 <br>弘前市亀甲町5　　 0172-88-9015</p>
+                      <p class="card-address">〒036－8332 <br>弘前市亀甲町5<br>0172-88-9015</p>
                     </article>
                     <article class="shop-card">
                       <h5>ジョージのおやつ</h5> 
                       <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/George.png" alt="">
                       <p class="card-text">カフェ兼スイーツ・ケーキショップの「ジョージのおやつ」。お菓子教室やイベント出店なども行っており、楽しい時も、苦しい時も、いつもあなたのそばに寄り添える、そんなおやつを提供されています。</p>
-                      <p class="card-address">〒036－8102 <br>弘前市子比内5-1-1　　0172-28-1050</p>
+                      <p class="card-address">〒036－8102 <br>弘前市子比内5-1-1<br>0172-28-1050</p>
                     </article>
                     <article class="shop-card">
                       <h5>コトリcafe</h5> 
                       <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/kotoricafe.png" alt="">
                       <p class="card-text">百石町展示館内にあるレトロな喫茶店「コトリcafe」。店名にあるように店内の至るところに小鳥の置物が飾られており、看板メニューであるこだわりのマフィンは現在までに50種類以上ものマフィンを作られています。</p>
-                      <p class="card-address">〒036－8035 <br>弘前市百石町3-2　　0172-88-8504</p>
+                      <p class="card-address">〒036－8035 <br>弘前市百石町3-2<br>0172-88-8504</p>
                     </article>
                     <article class="shop-card">
                       <h5>ユイット デュボワ</h5> 
                       <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/duboa.png" alt="">
                       <p class="card-text">地元の新鮮な野菜に加え、青森県の大自然で育った県産牛100%のパティを使用したグルメバーガーが人気な「デュポワ」。肉本来のうま味を生かした究極のハンバーガーは、身体に染み込んでいく美味しさです。</p>
-                      <p class="card-address">〒036-0241 <br>平川市八幡崎松枝42-1　　0172-40-2838</p>
+                      <p class="card-address">〒036-0241 <br>平川市八幡崎松枝42-1<br>0172-40-2838</p>
                     </article>
                     <article class="shop-card">
                       <h5>二階堂</h5> 
                       <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/nikaido.png" alt="">
                       <p class="card-text">1946年創業、青森の老舗和菓子店「二階堂」。身体に優しく美味しいお菓子作りにこだわり何度も試作した末にたどりついた至高の逸品”あおもり藍フィナンシェ”を発売します。</p>
-                      <p class="card-address">〒030－0802 <br>青森市本町1-16-11　　017-776-5863</p>
+                      <p class="card-address">〒030－0802 <br>青森市本町1-16-11<br>017-776-5863</p>
                     </article>
                   </div>
 				  <h4 class="accbox-headline">ハンドクラフト</h4>
@@ -107,7 +107,7 @@
                       </p>
                     </div>
                     <div class="craft-card">
-                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/gakusei.jpg" alt="">
+                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/gakusei.png" alt="">
                       <p class="craft-info">学生ブース<br>
                       <u class="craft-address">yomogi.さんとSIKI〜四季〜さんによる出店になります。</u>
                       </p>
