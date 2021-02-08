@@ -58,7 +58,7 @@
                       <h5>二階堂</h5> 
                       <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/nikaido.png" alt="">
                       <p class="card-text">1946年創業、青森の老舗和菓子店「二階堂」。身体に優しく美味しいお菓子作りにこだわり何度も試作した末にたどりついた至高の逸品”あおもり藍フィナンシェ”を発売します。</p>
-                      <p class="card-address">〒030－0802 <br>青森市本町1-16-11　　017-776-58634</p>
+                      <p class="card-address">〒030－0802 <br>青森市本町1-16-11　　017-776-5863</p>
                     </article>
                   </div>
 				  <h4 class="accbox-headline">ハンドクラフト</h4>
@@ -122,14 +122,12 @@
            <div class="map-container-main">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.768834848145!2d140.4771725!3d40.5908577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b01bb6cca7535%3A0x5831a80a8d5ebb1a!2z5pen5byY5YmN5YGV6KGM56S-!5e0!3m2!1sja!2sjp!4v1612606268840!5m2!1sja!2sjp" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           　<p>
-            <br>
-            ――――――――――――ーーー <br>
-            〒036－8185 <br>
-            青森県弘前市御幸町8－10 <br>
-            ――――――――――――ーーー <br>
-            弘前駅から車で7分 <br>
-            弘南鉄道弘高下駅から徒歩10分<br>
-             ――――――――――――ーーー
+              〒036－8185 
+              青森県弘前市御幸町8－10
+            </p>
+            <p>
+              弘前駅から車で7分 
+              弘南鉄道弘高下駅から徒歩10分
             </p>
            </div>
         </div>
