@@ -118,18 +118,20 @@
     <section id="fifth-block">
         <div class="map-container">
           <h4>アクセス</h4>
-           <div class="map-container-main">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.768834848145!2d140.4771725!3d40.5908577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b01bb6cca7535%3A0x5831a80a8d5ebb1a!2z5pen5byY5YmN5YGV6KGM56S-!5e0!3m2!1sja!2sjp!4v1612606268840!5m2!1sja!2sjp" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <div>
-              <p>
-                〒036－8185 
-                青森県弘前市御幸町8－10
-              </p>
-              <p>
-                弘前駅から車で7分 
-                弘南鉄道弘高下駅から徒歩10分
-              </p>
-            </div>
+            <div class="map-container-main">
+              <div class="map-container-main-box">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.768834848145!2d140.4771725!3d40.5908577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b01bb6cca7535%3A0x5831a80a8d5ebb1a!2z5pen5byY5YmN5YGV6KGM56S-!5e0!3m2!1sja!2sjp!4v1612606268840!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+              <div class="map-container-main-script">
+                <p>
+                  〒036－8185 
+                  青森県弘前市御幸町8－10
+                </p>
+                <p>
+                  弘前駅から車で7分 
+                  弘南鉄道弘高下駅から徒歩10分
+                </p>
+              </div>
            </div>
         </div>
         <div id="sixth-block" class="note-container">
