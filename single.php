@@ -7,7 +7,7 @@
     <section id="second-block">
         <div class="movie-container">
         　<h2>MOVIE</h2>
-          <image src="<?php echo get_template_directory_uri(); ?>/img/YouTube.jpg" class="YouTube-image"></image>
+          <iframe class="movie-container-video" src="https://www.youtube.com/embed/dPOmoo7J6zw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <p class="info-text">
             <u>近日公開･･･！</u>
           </p>

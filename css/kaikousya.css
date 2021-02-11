@@ -267,8 +267,9 @@ font-size: 15px;
   border: 0.5vh solid #9C3F3F;
 }
 
-.YouTube-image{
+.movie-container-video{
   width: 55%;
+  height: auto;
 }
 
 .info-text {
@@ -298,8 +299,9 @@ font-size: 15px;
   border: 0.5vh solid #9C3F3F;
 }
 
-.YouTube-image{
+.movie-container-video{
   width: 55%;
+  height: auto;
 }
 
 .info-text {
