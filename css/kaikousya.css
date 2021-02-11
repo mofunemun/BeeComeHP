@@ -266,6 +266,7 @@ font-size: 15px;
   width: 90%;
   background: #EFE4B8;
   border: 0.5vh solid #9C3F3F;
+  padding-bottom: 3vh;
 }
 
 .movie-container-box{
@@ -308,6 +309,7 @@ font-size: 15px;
   width: 90%;
   background: #EFE4B8;
   border: 0.5vh solid #9C3F3F;
+  padding-bottom: 5vh;
 }
 
 .movie-container-box{
