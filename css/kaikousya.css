@@ -127,6 +127,7 @@ display: none;
   top: 0;
   left: 0; 
   display: flex;
+  z-index: 4;
 }
 .header-nav>div{
   display: flex;
@@ -271,6 +272,8 @@ font-size: 15px;
   position:relative;
   height:0;
   padding-bottom:56.25%;
+  width: 90%;
+  margin: 0 auto;
 }
 .movie-container-video{
   position: absolute;
@@ -311,6 +314,8 @@ font-size: 15px;
   position:relative;
   height:0;
   padding-bottom:56.25%;
+  width: 90%;
+  margin: 0 auto;
 }
 .movie-container-video{
   position: absolute;
