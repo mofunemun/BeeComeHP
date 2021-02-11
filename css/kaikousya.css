@@ -633,7 +633,7 @@ font-size: 15px;
 }
 
 .map-container-main {
-  margin: 3vh;
+  margin: 3vh auto;
   text-align: center;
   }
 
@@ -641,7 +641,7 @@ font-size: 15px;
   position:relative;
   height:0;
   padding-bottom:56.25%;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -654,7 +654,7 @@ font-size: 15px;
 }
 
 .map-container-main-script-parts{
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   padding: 0.5vh 0;
   border-bottom: #4F2111 solid 1px;
@@ -709,8 +709,8 @@ font-size: 15px;
 .map-container-main-box{
   position:relative;
   height:0;
-  padding-bottom:40%;
-  width: 60%;
+  padding-bottom:20%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -737,14 +737,14 @@ font-size: 15px;
 .map-container-main-script{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  justify-content: flex-end;
+  width: 40%;
   margin: 0 5%;
 }
 
 .map-container-main-script-parts{
   border-bottom: #4F2111 solid 1px;
   width: 100%;
-  height: 50%;
   margin: 0;
   display: flex;
   align-items: flex-end;
