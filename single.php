@@ -80,7 +80,7 @@
                     </div>
                     <div class="craft-card">
                       <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/silli-sewing.png" alt="">
-                      <p class="craft-info">silli-sewing<br>
+                      <p class="craft-info">Siili<br>
                       <u class="craft-address">はりねずみ好きの刺繍屋さん。<br>
                       星座のブローチや様々な模様のヘアゴムなどを販売されています。</u>
                       </p>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="craft-card">
                       <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/zakka.png" alt="">
-                      <p class="craft-info">Zakka灯台<br>
+                      <p class="craft-info">zakka灯台<br>
                       <u class="craft-address">〒036-8184<br>
                                             弘前市松森町80-1　0172-55-8966</u>
                       </p>
