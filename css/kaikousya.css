@@ -266,10 +266,19 @@ font-size: 15px;
   background: #EFE4B8;
   border: 0.5vh solid #9C3F3F;
 }
-
+.movie-container-box{
+    position:relative;
+    width:100%;
+    height:0;
+    padding-top:75%;
+}
 .movie-container-video{
-  width: 55%;
-  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 0;
+  padding-top: 75%;
 }
 
 .info-text {
@@ -299,9 +308,19 @@ font-size: 15px;
   border: 0.5vh solid #9C3F3F;
 }
 
+.movie-container-box{
+  position:relative;
+  width:100%;
+  height:0;
+  padding-top:75%;
+}
 .movie-container-video{
-  width: 55%;
-  height: auto;
+position: absolute;
+top: 0;
+left: 0;
+width: 80%;
+height: 0;
+padding-top: 75%;
 }
 
 .info-text {
