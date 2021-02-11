@@ -640,8 +640,8 @@ font-size: 15px;
 .map-container-main-box{
   position:relative;
   height:0;
-  padding-bottom:56.25%;
-  width: 100%;
+  padding-bottom: 40%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -654,7 +654,7 @@ font-size: 15px;
 }
 
 .map-container-main-script-parts{
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   padding: 0.5vh 0;
   border-bottom: #4F2111 solid 1px;
@@ -709,7 +709,7 @@ font-size: 15px;
 .map-container-main-box{
   position:relative;
   height:0;
-  padding-bottom:20%;
+  padding-bottom:20vh;
   width: 50%;
   margin: 0 auto;
 }
@@ -728,6 +728,7 @@ font-size: 15px;
 
 .map-container-main{
   display: flex;
+  width: 80%;
 }
 
 .map-container-main>iframe{
@@ -738,6 +739,7 @@ font-size: 15px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  height: 20vh;
   width: 40%;
   margin: 0 5%;
 }
