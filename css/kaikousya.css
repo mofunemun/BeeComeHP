@@ -791,6 +791,11 @@ footer>div{
     height: auto;
     padding: 2%;
 }
+.footer-logo>img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .footer-titlelogo{
     width: 50%;
     height: auto;
@@ -801,6 +806,11 @@ footer>div{
     width: 15%;
     padding:2%;
     height: auto;
+}
+.footer-QR>img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .footer-copyrights{
     font-size: calc(1.125rem + ((1vw - 3.75px) * 2.1572));
@@ -830,6 +840,11 @@ footer>div{
     height: auto;
     padding: 2%;
 }
+.footer-logo>img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .footer-titlelogo{
     width: 30%;
     height: auto;
@@ -837,6 +852,11 @@ footer>div{
 .footer-QR{
     width: 10%;
     height: auto;
+}
+.footer-QR>img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .footer-copyrights,.footer-subcopyrights{
     font-size: 25px;

@@ -719,6 +719,11 @@ footer{
         height: auto;
         padding: 2%;
     }
+    .footer-logo>img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
     .footer-titlelogo{
         width: 50%;
         height: auto;
@@ -728,6 +733,11 @@ footer{
     .footer-QR{
         width: 20%;
         padding:2%;
+        height: auto;
+    }
+    .footer-QR>img{
+        display: block;
+        width: 100%;
         height: auto;
     }
     .footer-copyrights{
