@@ -10,7 +10,7 @@
         <div class="header-nav">
 			<div>
 					<img class="header-logo" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-logo.png" alt="BeeComeのロゴ">
-          <img class="header-titlelogo" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="BeeComeのタイトルロゴ">
+          <h1><img class="header-titlelogo" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="BeeComeのタイトルロゴ"></h1>
 			</div>
           <nav>
               <a href="#first-block">HOME</a>
