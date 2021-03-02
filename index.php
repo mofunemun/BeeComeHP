@@ -3,7 +3,7 @@
     <main>
         <section class="main-message">
             <div class="main-message-first">
-                <img class="main-message-speech" src="<?php echo get_template_directory_uri(); ?>/img/speech-and-bee.png" alt="">
+                <img class="main-message-speech" src="<?php echo get_template_directory_uri(); ?>/img/speech-and-bee.jpg" alt="">
                 <img class="main-message-vivid" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="">
                 <img class="main-message-semivivid" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="">
                 <img class="main-message-vague" src="<?php echo get_template_directory_uri(); ?>/img/BeeCome-textrogo.png" alt="">

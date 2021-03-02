@@ -213,7 +213,7 @@ body {
 @media screen and (min-width:300px){
     .main-message{
         position: relative;
-        background-image: url(../img/bgimg-sp-message.png);
+        background-image: url(../img/bgimg-sp-message.jpg);
         background-size: cover;
         padding-top: 15vh;
         top:0;
@@ -276,7 +276,7 @@ body {
     .main-message{
         width: 100%;
         position: relative;
-        background-image: url(../img/bgimg-sp-message.png);
+        background-image: url(../img/bgimg-sp-message.jpg);
         background-size: cover;
         padding-top: 0;
         top:0;
@@ -338,7 +338,7 @@ body {
 @media screen and (min-width:300px){
     .main-whats{
         position: relative;
-        background-image: url(../img/bgimg-sp2.png);
+        background-image: url(../img/bgimg-sp2.jpg);
         background-size: cover;
     }
     .main-whats>h2{
