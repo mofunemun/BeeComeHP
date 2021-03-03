@@ -78,7 +78,7 @@
                       </p>
                     </div>
                     <div class="craft-card">
-                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/silli-sewing.png" alt="">
+                      <img class="img" src="<?php echo get_template_directory_uri(); ?>/img/silli-sewing.jpg" alt="">
                       <p class="craft-info">Siili<br>
                       <u class="craft-address">はりねずみ好きの刺繍屋さん。<br>
                       星座のブローチや様々な模様のヘアゴムなどを販売されています。</u>

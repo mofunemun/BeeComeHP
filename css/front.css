@@ -3,7 +3,8 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'HGGothicE',sans-serif;
+    font-family: 'Helvetica Neue','Helvetica','Arial', 
+sans-serif;
     width: 100vw;
     background-color: white;
 }
@@ -181,13 +182,17 @@ body {
         width: 100%;
         height: 100%;
         font-size: calc(2.75rem + ((1vw - 10.24px) * 2.0833));
-        font-family: 'DIN Condensed',sans-serif;
+        font-family: 'Helvetica Neue','Helvetica','Arial', 
+        sans-serif;
+        ;
         align-items: center;
     }
     .header-menu-JP{
         font-weight: 200;
         font-size: 16px;
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+        font-family: 'Helvetica Neue','Helvetica','Arial', 
+        sans-serif;
+        ;
     }
     header{
         display: block;
@@ -523,7 +528,9 @@ body {
         font-size: calc(0.625rem + ((1vw - 3.75px) * 2.4653));
         text-align: left;
         color: #4f2111;
-        font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+        font-family: 'Helvetica Neue','Helvetica','Arial', 
+sans-serif;
+
     }
     .main-activity-articles{
         display: flex;
@@ -542,7 +549,9 @@ body {
         font-size: calc(1.5rem + ((1vw - 3.75px) * 4.6225));
         margin: 2vh auto;
         font-weight: normal;
-        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+        font-family: 'Helvetica Neue','Helvetica','Arial', 
+sans-serif;
+
     }
     .main-activity-articles-item>img{
         width: 90%;
@@ -553,14 +562,18 @@ body {
         background-color: #fafa02;
         margin: 1vh auto 3vh auto;
         padding: 2vh 10%;
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+        font-family: 'Helvetica Neue','Helvetica','Arial', 
+sans-serif;
+
     }
     .main-activity-articles-item>ul>li{
         color: #4f2111;
         text-align: left;
         font-size: calc(0.75rem + ((1vw - 3.75px) * 1.849));
         list-style-type: disc;
-        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
+        font-family: 'Helvetica Neue','Helvetica','Arial', 
+sans-serif;
+
     }
     .main-activity-articles-item>ul>h5{
         color: #4f2111;
@@ -623,7 +636,6 @@ body {
         font-size: 54px;
         margin: 2vh auto;
         font-weight: normal;
-        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
     }
     .main-activity-articles-item>img{
         width: 80%;
@@ -634,14 +646,13 @@ body {
         background-color: #fafa02;
         margin: 1vh auto 3vh auto;
         padding: 2vh 10%;
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+
     }
     .main-activity-articles-item>ul>li{
         color: #4f2111;
         text-align: left;
         font-size: calc(1.125rem + ((1vw - 10.24px) * 1.1719));
         list-style-type: disc;
-        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
     }
     .main-activity-articles-item-company{
         margin: 3vh auto 0 auto;
@@ -742,14 +753,12 @@ footer{
     }
     .footer-copyrights{
         font-size: calc(1.125rem + ((1vw - 3.75px) * 2.1572));
-        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
         position: relative;
         top: -2vh;
         color:#707070;
     }
     .footer-subcopyrights{
         font-size: calc(0.25rem + ((1vw - 3.75px) * 4.3143));
-        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
         position: relative;
         top: -2vh;
         color:#707070;
@@ -789,7 +798,6 @@ footer{
     }
     .footer-copyrights,.footer-subcopyrights{
         font-size: 32px;
-        font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
         position: relative;
         top: -4vh;
         color:#707070;

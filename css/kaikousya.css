@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: 'Helvetica Neue','Helvetica','Arial', 
+sans-serif;
+
 }
 
 /* ヘッダー */
@@ -814,14 +817,12 @@ footer>div{
 }
 .footer-copyrights{
     font-size: calc(1.125rem + ((1vw - 3.75px) * 2.1572));
-    font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
     position: relative;
     top: -2vh;
     color:#707070;
 }
 .footer-subcopyrights{
     font-size: calc(0.25rem + ((1vw - 3.75px) * 4.3143));
-    font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
     position: relative;
     top: -2vh;
     color:#707070;
@@ -860,7 +861,6 @@ footer>div{
 }
 .footer-copyrights,.footer-subcopyrights{
     font-size: 25px;
-    font-family:  "ヒラギノ明朝 Pro","Hiragino Mincho Pro",serif;
     position: relative;
     top: -4vh;
     color:#707070;
