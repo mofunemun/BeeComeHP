@@ -39,7 +39,7 @@
                       <h5>ジョージのおやつ</h5> 
                       <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/George.png" alt="">
                       <p class="card-text">カフェ兼スイーツ・ケーキショップの「ジョージのおやつ」。お菓子教室やイベント出店なども行っており、楽しい時も、苦しい時も、いつもあなたのそばに寄り添える、そんなおやつを提供されています。</p>
-                      <a class="card-address">〒036－8102 <br>弘前市子比内5-1-1<br>0172-28-1050</a>
+                      <a class="card-address" href="https://www.joji-no-oyatsu.com/">ジョージのおやつさんの公式ページはこちら</a>
                     </article>
                     <article class="shop-card">
                       <h5>コトリcafe</h5> 
