@@ -573,6 +573,8 @@ font-size: 15px;
 .card-address {
   text-align: left;
   font-size: 1.1vw;
+  display: block;
+  text-decoration: none;
 }
 
 .craft-index {

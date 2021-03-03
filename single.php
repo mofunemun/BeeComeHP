@@ -13,7 +13,7 @@
         </div>
     </section>
     <section id="third-block">
-      <image src="<?php echo get_template_directory_uri(); ?>/img/event.png" class="event"></image>
+      <image src="<?php echo get_template_directory_uri(); ?>/img/event.jpg" class="event"></image>
     </section>
     <section id="fourth-block">
       <div class="shop-info">
@@ -39,7 +39,7 @@
                       <h5>ジョージのおやつ</h5> 
                       <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/George.png" alt="">
                       <p class="card-text">カフェ兼スイーツ・ケーキショップの「ジョージのおやつ」。お菓子教室やイベント出店なども行っており、楽しい時も、苦しい時も、いつもあなたのそばに寄り添える、そんなおやつを提供されています。</p>
-                      <p class="card-address">〒036－8102 <br>弘前市子比内5-1-1<br>0172-28-1050</p>
+                      <a class="card-address">〒036－8102 <br>弘前市子比内5-1-1<br>0172-28-1050</a>
                     </article>
                     <article class="shop-card">
                       <h5>コトリcafe</h5> 
